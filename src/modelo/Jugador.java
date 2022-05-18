@@ -10,8 +10,7 @@ public class Jugador{
     /**
      * Escoge piedra, papel o tijera al azar
      */
-    public String opcionAlAzar()
-    {
+    public String opcionAlAzar() {
         String opcion="";
         Integer c = (int)(Math.random()*3);
         switch(c){
@@ -26,13 +25,11 @@ public class Jugador{
         }
         return opcion;
     }
-    public void setExitos()
-    {
+    public void setExitos() {
         exitos++;
     }
-    public int getExitos()
-    {
-        return(exitos);
+    public int getExitos() {
+        return exitos;
     }
 
 }
