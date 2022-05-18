@@ -12,7 +12,7 @@ public class Jugador{
      */
     public String opcionAlAzar() {
         String opcion="";
-        Integer c = (int)(Math.random()*3);
+        int c = (int)(Math.random()*3);
         switch(c){
             case 0:
                 opcion=("piedra");
