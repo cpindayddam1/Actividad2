@@ -1,3 +1,5 @@
+package ende.modelo;
+
 /**
  * Clase que representa el jugador
  */
@@ -8,7 +10,7 @@ public class Jugador{
     /**
      * Escoge piedra, papel o tijera al azar
      */
-    public String opcion_al_azar()
+    public String opcionAlAzar()
     {
         String opcion="";
         Integer c = (int)(Math.random()*3);
@@ -24,13 +26,13 @@ public class Jugador{
         }
         return opcion;
     }
-    public void setÉxitos()
+    public void setExitos()
     {
-        éxitos++;
+        exitos++;
     }
-    public int getÉxitos()
+    public int getExitos()
     {
-        return(éxitos);
+        return(exitos);
     }
 
 
